@@ -13,7 +13,7 @@ switch ($_SERVER['REQUEST_URI'])  {
         echo " page de compétences";
         break;
         
-    case '/projets':
+    case '/projects':
         echo " page de projets";
         break;
 
