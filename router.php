@@ -18,7 +18,7 @@ switch ($_SERVER['REQUEST_URI'])  {
         break;
 
     case '/contact':
-        echo " page de contact";
+        include "./templates/contact.php";
         break;
     
     default:
