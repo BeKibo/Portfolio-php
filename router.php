@@ -1,4 +1,7 @@
 <?php
+$path = $_SERVER['REQUEST_URI'];
+$cleanPath = preg_replace('/\?.*/', '', $path);
+
 
 switch ($_SERVER['REQUEST_URI'])  {
     case '/':
@@ -10,11 +13,12 @@ switch ($_SERVER['REQUEST_URI'])  {
         break;
     
     case '/skills':
-        echo " page de compétences";
+        include "./templates/skills.php";
         break;
         
     case '/projects':
-        echo " page de projets";
+        
+        include "./templates/projects.php";
         break;
 
     case '/contact':
