@@ -22,7 +22,7 @@ function toSlug(string $stackIcon): string
 ?>
 
 
-<h1 class="text-4xl font-bold bg-gradient-to-r from-[#AAFCB8]  to-[#D9F9E1] text-transparent bg-clip-text text-center">
+<h1 class="text-4xl font-bold bg-gradient-to-r from-[#AAFCB8]  to-[#D9F9E1] text-transparent  bg-clip-text text-center uppercase">
 mon projets
 </h1>
 
@@ -46,7 +46,15 @@ mon projets
             </ul>
         </div>
     <div class="w-24 h-full flex items-center justify-center text-[#D9F9E1] hover:text-[#AAFCB8] ">
-    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24"><!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10z"/></svg>
+    
+    <a href=" <?= $item['link'] ?> " target="_blank" rel="noopener noreferrer">
+                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24">
+                    <path fill="currentColor" d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10z"/>
+                </svg>
+            </a>
+
+
+    <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10z"/></svg>
     </div>
 </div>
 
