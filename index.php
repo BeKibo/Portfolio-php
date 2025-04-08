@@ -8,5 +8,3 @@ require_once './router.php';
 
 // Footer
 include_once './templates/components/footer.php';
-
-?>

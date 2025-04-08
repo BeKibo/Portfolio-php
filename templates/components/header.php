@@ -22,13 +22,15 @@ $currentPage = $_SERVER['REQUEST_URI'];
 <body>
     <header class="text-white">
         <nav
-            class="m-auto mt-5 w-[1000px] flex justify-between sticky top-0 z-[99] rounded-xl border border-stroke-secondary bg-gradient-to-r from-[#AAFCB8]/40 to-[#D9F9E1]/40 p-1 scrollbar-none items-center drop-shadow-m >
+            class="m-auto mt-5 w-[1000px] flex justify-between sticky top-0 z-[99] rounded-xl border border-stroke-secondary bg-gradient-to-r from-[#E9DFD5]/40 to-[#F2DFD1]/40 p-1 scrollbar-none items-center drop-shadow-m >
 
             
             <!-- Logo -->
-            <a href=" /">
-            <img src="./images/logo.png" alt="votre logo" width="50" />
-            </a>
+            
+    <a href="/">
+        <img src="./images/logo.png" alt="Votre logo" class="w-12" />
+    </a>
+
 
             <!-- Bouton hamburger pour mobile -->
             <button id="menu-btn" class="md:hidden">
