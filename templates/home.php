@@ -1,6 +1,6 @@
 <div class="my-4 w-full lg:w-[800px] m-auto h-full">
 
-  text-transparent w-[10ch] mt-12 mb-6">
+<h1 class="typewriter-gradient bg-clip-text bg-gradient-to-br from-slate-800 to-slate-400 text-6xl font-bold ">
   Xin Chao,
 </h1>
 
