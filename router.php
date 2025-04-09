@@ -34,3 +34,23 @@ switch ($cleanPath) {
 ?>
 
 <script src="./templates/scripts/error.js"></script>
+
+<style>
+  @layer utilities {
+    .typewriter-gradient {
+      overflow: hidden;
+      white-space: nowrap;
+      border-right: 2px solid #64748b;
+      animation: typing 3s steps(100, end), blink .7s step-end infinite;
+    }
+
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+
+    @keyframes blink {
+      50% { border-color: transparent }
+    }
+  }
+</style>

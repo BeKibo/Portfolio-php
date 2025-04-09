@@ -1,7 +1,7 @@
 
-<svg width="500" height="160" viewBox="0 0 500 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="500" height="160" viewBox="0 0 500 160" fill="white" xmlns="http://www.w3.org/2000/svg">
   <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Arial, sans-serif" font-size="48" fill="black">KIBO</text>
+        font-family="Arial, sans-serif" font-size="48" fill="white">KIBO</text>
   <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle"
-        font-family="Noto Sans JP, sans-serif" font-size="16" fill="black">きぼう</text>
+        font-family="Noto Sans JP, sans-serif" font-size="16" fill="white">きぼう</text>
 </svg>

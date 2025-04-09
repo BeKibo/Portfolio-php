@@ -22,7 +22,8 @@ function toSlug(string $stackIcon): string
 ?>
 
 
-<h1 class="text-4xl font-bold bg-gradient-to-r from-[#AAFCB8]  to-[#D9F9E1] text-transparent  bg-clip-text text-center uppercase">
+<div class="my-4 w-full lg:w-[1000px] m-auto h-full">
+<h1 class="typewriter-gradient bg-clip-text bg-gradient-to-br from-slate-800 to-slate-400 text-6xl font-bold ">
 mon projets
 </h1>
 
@@ -57,5 +58,5 @@ mon projets
     <!-- Icon from Material Symbols by Google - https://github.com/google/material-design-icons/blob/master/LICENSE --><path fill="currentColor" d="M8.025 22L6.25 20.225L14.475 12L6.25 3.775L8.025 2l10 10z"/></svg>
     </div>
 </div>
-
+</div>
 <? endforeach; ?> 
